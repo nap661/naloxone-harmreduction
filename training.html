@@ -2,151 +2,90 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta
+    name="viewport"
+    content="width=device-width,initial-scale=1" />
   <title>Training & P2P — Naloxone Advocates</title>
   <meta name="description" content="Book free naloxone training sessions in Plymouth and Devon." />
-  <link rel="stylesheet" href="/styles.css" />
+  <!-- Use the same global stylesheet you committed at repo root -->
+  /styles.css
+  /assets/img/logo.svg
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <a class="brand" href="/"><img src="/assets/img/logo.svg" alt="Naloxone Advocates" /><span>Naloxone Advocates</span></a>
-      <nav class="nav">
-        <a href="/about.html">About</a>
-        <a href="/training.html">Training & P2P</a>
-        <a href="/resources.html">Resources</a>
-        <a href="/news.html">News</a>
-        <a class="btn btn--primary" href="/contact.html">Get Naloxone</a>
-      </nav>
-    </div>
-  </header>
 
+  <!-- TOP COLOR STRIP (yellow) -->
   <div class="topbar"></div>
 
-<section class="hero">
-  <div class="container grid-hero">
-
-    <!-- Left: Hero Card -->
-    <div class="hero-card">
-      <h1>Book Free Naloxone Training</h1>
-      <p style="color:#fff;margin:10px 0 16px;">
-        Learn overdose response and receive a free naloxone kit.
-      </p>
-
-      <div class="hero-cta">
-        #bookStart Booking</a>
-        /resources.htmlDownload Guide</a>
-      </div>
-    </div>
-
-    <!-- Right side pills -->
-    <div class="hero-side">
-      <div class="pill"><span class="dot"></span> 100% Free Training</div>
-      <div class="pill"><span class="dot" style="background:#ffd204"></span> No judgement</div>
-      <div class="pill"><span class="dot" style="background:#ff4dc2"></span> Peer-led support</div>
-    </div>
-
-  </div>
-</section>
-
-  <section class="section" id="book">
+  <!-- HEADER / NAV -->
+  <header class="site-header">
     <div class="container">
-      <form id="bookingForm" class="card" style="padding:20px">
-        <div class="grid-2" style="grid-template-columns:1fr 1fr; gap:14px">
-          <div>
-            <label for="full_name">Full name *</label><br>
-            <input id="full_name" name="full_name" type="text" required placeholder="Jane Doe" style="width:100%;padding:12px;border-radius:10px;border:1px solid #d8def0">
-          </div>
-          <div>
-            <label for="email">Email *</label><br>
-            <input id="email" name="email" type="email" required placeholder="you@example.org" style="width:100%;padding:12px;border-radius:10px;border:1px solid #d8def0">
-          </div>
-          <div>
-            <label for="phone">Phone</label><br>
-            <input id="phone" name="phone" type="tel" placeholder="+44 ..." style="width:100%;padding:12px;border-radius:10px;border:1px solid #d8def0">
-          </div>
-          <div>
-            <label for="session">Choose a session *</label><br>
-            <select id="session" name="session" required style="width:100%;padding:12px;border-radius:10px;border:1px solid #d8def0">
-              <option value="">Select...</option>
-              <option>Community Session - Harbour Centre</option>
-              <option>Peer-to-Peer (P2P) - Devonport</option>
-              <option>Organisational Training - On-site</option>
-            </select>
-          </div>
-          <div>
-            <label for="date">Preferred date *</label><br>
-            <input id="date" name="date" type="date" required style="width:100%;padding:12px;border-radius:10px;border:1px solid #d8def0">
-          </div>
-          <div>
-            <label for="attendees">Number of attendees</label><br>
-            <input id="attendees" name="attendees" type="number" min="1" max="50" value="1" style="width:100%;padding:12px;border-radius:10px;border:1px solid #d8def0">
-          </div>
-          <div style="grid-column:1/-1">
-            <label for="notes">Notes</label><br>
-            <textarea id="notes" name="notes" rows="4" placeholder="Accessibility needs, organisation name, anything else..." style="width:100%;padding:12px;border-radius:10px;border:1px solid #d8def0"></textarea>
-          </div>
+      /
+        <img src="/assets/img/logo.svg" alt="Naloxonedvocates</span>
+      </a>
+      <nav class="nav">
+        <about.htmlAbout</a>
+        /training.htmlTraining &amp; P2P</a>
+        <aesources.htmlResources</a>
+        <a href="/news</a>
+        <a class="btn btn--primary" href="/contact.html</div>
+  </header>
+
+  <!-- HERO (bold blue card + right-hand pills) -->
+  <section class="hero">
+    <div class="container grid-hero">
+
+      <!-- Left: Blue hero card -->
+      <div class="hero-card">
+        <div class="hero-badges">
+          <span class="badge">/assets/img/logo.svg Community Action</span>
+          <span class="badge">Free Training</span>
+          <span class="badge">Peer‑led</span>
         </div>
-        <input type="text" name="website" id="website" style="display:none">
-        <div class="cta-row" style="margin-top:14px">
-          <button class="btn btn--pink" type="submit">Submit Booking</button>
-          <span id="formStatus" style="margin-left:12px;color:#58627a"></span>
+
+        <h1>Book Free Naloxone Training</h1>
+        <p style="color:#fff;margin:10px 0 16px;">
+          Learn to recognise overdose and administer naloxone with confidence.
+        </p>
+
+        <div class="hero-cta">
+          #bookStart Booking</a>
+          /resources.htmlDownload Guide</a>
         </div>
-      </form>
+
+        <!-- Optional round avatar/photo in the hero card -->
+        <div style="position:absolute; right:20px; top:20px; width:64px; height:64px; border-radius:50%; overflow:hidden; border:3px solid #fff7; box-shadow:0 6px 16px rgba(0,0,0,.22)">
+          <img src="/assets/img        </div>
+      </div>
+
+      <!-- Right: Info pills -->
+      <div class="hero-side">
+        <div class="pill"><span class="dot"></span> 100% Free Training</div>
+        <div class="pill"><span class="dot" style="background:#ffd204"></span> Non‑judgemental &amp; supportive</div>
+        <div class="pill"><span class="dot" style="background:#ff4dc2"></span> Peer‑to‑Peer (P2P) programme</div>
+      </div>
+
     </div>
   </section>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <strong>Naloxone Advocates Plymouth CIC</strong>
-        <p>Devon, UK • info@example.org</p>
-        <div class="social">
-          <a aria-label="Facebook" href="#" rel="noopener">Fb</a>
-          <a aria-label="Instagram" href="#" rel="noopener">Ig</a>
-          <a aria-label="X" href="#" rel="noopener">X</a>
-        </div>
-      </div>
-      <div>
-        <h4>Quick Links</h4>
-        <ul>
-          <li><a href="/training.html">Training & P2P</a></li>
-          <li><a href="/resources.html">Resources</a></li>
-          <li><a href="/news.html">News</a></li>
-          <li><a href="/contact.html">Get Naloxone</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Support Us</h4>
-        <p>Your support sustains free training.</p>
-        <a class="btn btn--primary" href="/contact.html">How to Donate</a>
-      </div>
-    </div>
-  </footer>
+  <!-- OPTIONAL tiny stat band for the training page (remove if you prefer) -->
+  <div class="statband">
+    <ul class="stats">
+      <li><span class="num">500+</span> Trained</li>
+      <li><span class="num">1,200+</span> Kits Distributed</li>
+      <li><span class="num">150+</span> Events</li>
+    </ul>
+  </div>
 
-  <script>
-    const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyckpp9ACxXNftfL0lHp5lIXq1axq-VF_XG3xzaadjvre_ee_Qa2DU0baBlyg-YYLWIHQ/exec';
-    const form = document.getElementById('bookingForm');
-    const statusEl = document.getElementById('formStatus');
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      statusEl.style.color = '#58627a';
-      statusEl.textContent = 'Sending...';
-      if (form.website && form.website.value) {
-        statusEl.style.color = '#c0392b'; statusEl.textContent = 'Submission blocked.'; return;
-      }
-      const data = Object.fromEntries(new FormData(form).entries());
-      data._source = 'NAP Website';
-      try {
-        const res = await fetch(APPS_SCRIPT_URL, {
-          method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data)
-        });
-        const json = await res.json().catch(() => ({}));
-        if (res.ok && (json.ok !== false)) {
-          statusEl.style.color = '#27c383'; statusEl.textContent = json.message || 'Thanks - your booking has been received.'; form.reset();
-        } else { throw new Error(json.message || 'Could not submit. Please try again.'); }
-      } catch (err) { statusEl.style.color = '#c0392b'; statusEl.textContent = err.message || 'Network error. Please try again.'; }
-    });
-  </script>
-</body>
-</html>
+  <!-- BOOKING FORM -->
+  <section class="section" id="book">
+    <div class="container">
+      <div class="section-title">
+        <span class="pill-title">Book Your Session</span>
+      </div>
+
+      <form id="bookingForm" class="card" style="padding:20px">
+        <div class="grid-2" style="grid-template-columns:1fr 1fr; gap:14px">
+
+          <div>
+            <label for="full_name">Full name *</label><br>
+
